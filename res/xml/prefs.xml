@@ -151,7 +151,7 @@
                 android:title="@string/candidates_on"/>
 
         <CheckBoxPreference
-                android:defaultValue="true"
+                android:defaultValue="false"
                 android:dependency="candidates_on"
                 android:key="auto_complete"
                 android:persistent="true"
