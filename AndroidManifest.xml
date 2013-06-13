@@ -79,6 +79,7 @@
         <activity
                 android:name="com.menny.android.anysoftkeyboard.LauncherSettingsActivity"
                 android:icon="@drawable/ic_launcher_settings"
+                android:enabled="false"
                 android:label="@string/settings_app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

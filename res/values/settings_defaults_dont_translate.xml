@@ -6,12 +6,12 @@
     <string name="settings_default_vibrate_on_key_press_duration">0</string>
     <bool name="settings_default_sound_on">false</bool>
     <bool name="settings_default_lang_key_shows_popup">false</bool>
-    <bool name="settings_default_show_version_notification">true</bool>
-    <bool name="settings_default_show_tips_notification">true</bool>
-    <bool name="settings_default_show_settings_app">true</bool>
+    <bool name="settings_default_show_version_notification">false</bool>
+    <bool name="settings_default_show_tips_notification">false</bool>
+    <bool name="settings_default_show_settings_app">false</bool>
     <bool name="settings_default_show_chewbacca">true</bool>
     <bool name="settings_default_use_16_keys_symbols_keyboards">false</bool>
-    <bool name="settings_default_landscape_fullscreen">true</bool>
+    <bool name="settings_default_landscape_fullscreen">false</bool>
     <bool name="settings_default_portrait_fullscreen">false</bool>
     <bool name="settings_default_use_backword">false</bool>
     <bool name="settings_default_cycle_all_symbols">true</bool>
@@ -46,8 +46,8 @@
 
     <bool name="config_swipeDisambiguation">true</bool>
 
-    <string name="settings_default_swipe_velocity_threshold">380</string>
-    <string name="settings_default_swipe_distance_threshold">160</string>
+    <string name="settings_default_swipe_velocity_threshold">220</string>
+    <string name="settings_default_swipe_distance_threshold">80</string>
 
     <string name="settings_default_multitap_timeout">700</string>
     <string name="settings_default_long_press_timeout">350</string>
