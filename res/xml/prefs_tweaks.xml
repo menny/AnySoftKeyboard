@@ -275,6 +275,6 @@
         <intent
             android:action="android.intent.action.MAIN"
             android:targetClass="com.anysoftkeyboard.ui.dev.MainDeveloperActivity"
-            android:targetPackage="com.menny.android.anysoftkeyboard"/>
+            android:targetPackage="com.menny.android.anysoftkeyboard.mls"/>
     </Preference>
 </PreferenceScreen>

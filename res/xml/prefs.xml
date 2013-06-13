@@ -18,7 +18,7 @@
         <intent
                 android:action="android.intent.action.MAIN"
                 android:targetClass="com.anysoftkeyboard.ui.MainForm"
-                android:targetPackage="com.menny.android.anysoftkeyboard"/>
+                android:targetPackage="com.menny.android.anysoftkeyboard.mls"/>
     </Preference>
 
     <PreferenceCategory
@@ -31,7 +31,7 @@
             <intent
                     android:action="android.intent.action.MAIN"
                     android:targetClass="com.anysoftkeyboard.ui.settings.Keyboards"
-                    android:targetPackage="com.menny.android.anysoftkeyboard"/>
+                    android:targetPackage="com.menny.android.anysoftkeyboard.mls"/>
         </Preference>
 
         <Preference android:title="@string/special_dictionaries_group"
@@ -40,7 +40,7 @@
             <intent
                     android:action="android.intent.action.MAIN"
                     android:targetClass="com.anysoftkeyboard.ui.settings.Dictionaries"
-                    android:targetPackage="com.menny.android.anysoftkeyboard"/>
+                    android:targetPackage="com.menny.android.anysoftkeyboard.mls"/>
         </Preference>
     </PreferenceCategory>
 
@@ -54,7 +54,7 @@
             <intent
                     android:action="android.intent.action.MAIN"
                     android:targetClass="com.anysoftkeyboard.ui.settings.KeyboardThemeSelector"
-                    android:targetPackage="com.menny.android.anysoftkeyboard"/>
+                    android:targetPackage="com.menny.android.anysoftkeyboard.mls"/>
         </Preference>
 
         <Preference android:title="@string/quick_text_keys_group"
@@ -63,7 +63,7 @@
             <intent
                     android:action="android.intent.action.MAIN"
                     android:targetClass="com.anysoftkeyboard.ui.settings.QuickTextKeys"
-                    android:targetPackage="com.menny.android.anysoftkeyboard"/>
+                    android:targetPackage="com.menny.android.anysoftkeyboard.mls"/>
         </Preference>
 
         <Preference android:title="@string/top_generic_row_group"
@@ -72,7 +72,7 @@
             <intent
                     android:action="android.intent.action.MAIN"
                     android:targetClass="com.anysoftkeyboard.ui.settings.TopRowSelector"
-                    android:targetPackage="com.menny.android.anysoftkeyboard"/>
+                    android:targetPackage="com.menny.android.anysoftkeyboard.mls"/>
         </Preference>
 
         <Preference android:title="@string/bottom_generic_row_group"
@@ -81,7 +81,7 @@
             <intent
                     android:action="android.intent.action.MAIN"
                     android:targetClass="com.anysoftkeyboard.ui.settings.BottomRowSelector"
-                    android:targetPackage="com.menny.android.anysoftkeyboard"/>
+                    android:targetPackage="com.menny.android.anysoftkeyboard.mls"/>
         </Preference>
 
         <Preference android:title="@string/extension_keyboard_group"
@@ -90,7 +90,7 @@
             <intent
                     android:action="android.intent.action.MAIN"
                     android:targetClass="com.anysoftkeyboard.ui.settings.ExtensionKeyboardSelector"
-                    android:targetPackage="com.menny.android.anysoftkeyboard"/>
+                    android:targetPackage="com.menny.android.anysoftkeyboard.mls"/>
         </Preference>
 
         <net.evendanan.pushingpixels.ListPreference
@@ -334,7 +334,7 @@
             <intent
                     android:action="android.intent.action.MAIN"
                     android:targetClass="com.anysoftkeyboard.ui.settings.Tweaks"
-                    android:targetPackage="com.menny.android.anysoftkeyboard"/>
+                    android:targetPackage="com.menny.android.anysoftkeyboard.mls"/>
         </Preference>
     </PreferenceCategory>
 
