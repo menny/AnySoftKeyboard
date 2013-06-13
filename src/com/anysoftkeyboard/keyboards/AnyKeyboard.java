@@ -34,7 +34,7 @@ import com.anysoftkeyboard.quicktextkeys.QuickTextKeyFactory;
 import com.anysoftkeyboard.utils.Log;
 import com.anysoftkeyboard.utils.Workarounds;
 import com.menny.android.anysoftkeyboard.AnyApplication;
-import com.menny.android.anysoftkeyboard.R;
+import com.menny.android.anysoftkeyboard.mls.R;
 import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;

@@ -16,7 +16,7 @@
 
 package com.anysoftkeyboard.ui.tutorials;
 
-import com.menny.android.anysoftkeyboard.R;
+import com.menny.android.anysoftkeyboard.mls.R;
 
 public class TestersNoticeActivity extends BaseTutorialActivity {
 

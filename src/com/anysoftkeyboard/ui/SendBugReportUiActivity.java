@@ -24,7 +24,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 import com.anysoftkeyboard.utils.Log;
-import com.menny.android.anysoftkeyboard.R;
+import com.menny.android.anysoftkeyboard.mls.R;
 
 
 public class SendBugReportUiActivity extends Activity {

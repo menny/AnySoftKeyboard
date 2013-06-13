@@ -34,7 +34,7 @@ import com.anysoftkeyboard.addons.AddOn;
 import com.anysoftkeyboard.addons.AddOnsFactory;
 import com.anysoftkeyboard.addons.IconHolder;
 import com.anysoftkeyboard.addons.ScreenshotHolder;
-import com.menny.android.anysoftkeyboard.R;
+import com.menny.android.anysoftkeyboard.mls.R;
 /*using this import requires using the Android Library from https://github.com/menny/PushingPixels*/
 import net.evendanan.pushingpixels.ListPreference;
 

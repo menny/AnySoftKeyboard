@@ -20,7 +20,7 @@ import android.app.Activity;
 import android.app.Dialog;
 import android.os.AsyncTask;
 import android.util.Log;
-import com.menny.android.anysoftkeyboard.R;
+import com.menny.android.anysoftkeyboard.mls.R;
 
 import java.lang.ref.WeakReference;
 

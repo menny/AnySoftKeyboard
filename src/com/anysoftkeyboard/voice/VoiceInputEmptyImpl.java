@@ -18,7 +18,7 @@ package com.anysoftkeyboard.voice;
 
 import android.content.Context;
 import android.widget.Toast;
-import com.menny.android.anysoftkeyboard.R;
+import com.menny.android.anysoftkeyboard.mls.R;
 
 public class VoiceInputEmptyImpl implements VoiceInput {
 

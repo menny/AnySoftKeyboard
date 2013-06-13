@@ -24,7 +24,7 @@ import android.content.Context;
 import android.content.Intent;
 import com.anysoftkeyboard.ui.tutorials.WelcomeHowToNoticeActivity;
 import com.anysoftkeyboard.utils.Log;
-import com.menny.android.anysoftkeyboard.R;
+import com.menny.android.anysoftkeyboard.mls.R;
 
 /*
  * This receiver is (hopefully) called after AnySoftKeyboard installed from the Market

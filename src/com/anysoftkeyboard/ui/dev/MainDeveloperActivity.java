@@ -32,7 +32,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import net.evendanan.pushingpixels.AsyncTaskWithProgressWindow;
 import com.anysoftkeyboard.utils.Log;
-import com.menny.android.anysoftkeyboard.R;
+import com.menny.android.anysoftkeyboard.mls.R;
 
 import java.io.File;
 

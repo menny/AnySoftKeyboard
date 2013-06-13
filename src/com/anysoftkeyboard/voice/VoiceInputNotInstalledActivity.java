@@ -22,7 +22,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
-import com.menny.android.anysoftkeyboard.R;
+import com.menny.android.anysoftkeyboard.mls.R;
 
 public class VoiceInputNotInstalledActivity extends Activity implements android.view.View.OnClickListener {
 

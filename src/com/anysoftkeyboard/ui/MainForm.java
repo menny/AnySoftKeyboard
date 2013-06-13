@@ -32,7 +32,7 @@ import com.anysoftkeyboard.ui.tutorials.ChangeLogActivity;
 import com.anysoftkeyboard.ui.tutorials.TipsActivity;
 import com.anysoftkeyboard.ui.tutorials.WelcomeHowToNoticeActivity;
 import com.menny.android.anysoftkeyboard.AnyApplication;
-import com.menny.android.anysoftkeyboard.R;
+import com.menny.android.anysoftkeyboard.mls.R;
 
 public class MainForm extends Activity implements OnClickListener {
 

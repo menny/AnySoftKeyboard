@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.menny.android.anysoftkeyboard"
+          package="com.menny.android.anysoftkeyboard.mls"
           android:versionCode="103"
           android:versionName="20130612">
 
@@ -30,23 +30,15 @@
     <uses-configuration android:reqTouchScreen="stylus"/>
 
     <application
-            android:name=".AnyApplication"
-            android:allowBackup="true"
-            android:backupAgent="com.anysoftkeyboard.backup.AnyBackupAgent"
+            android:name="com.menny.android.anysoftkeyboard.AnyApplication"
             android:hardwareAccelerated="true"
             android:icon="@drawable/ic_launcher"
             android:installLocation="internalOnly"
-            android:label="@string/ime_name"
-            android:restoreAnyVersion="true">
-
-        <!-- used to backup the settings and SQL to the cloud -->
-        <meta-data
-                android:name="com.google.android.backup.api_key"
-                android:value="AEdPqrEAAAAILlrSpiqigog3iJt3BwYxzNXMUzqgGV_dJ1EPDQ"/>
+            android:label="@string/ime_name">
 
         <!-- this is the IME with the pointer to the settings ui (xml/method) -->
         <service
-                android:name=".SoftKeyboard"
+                android:name="com.menny.android.anysoftkeyboard.SoftKeyboard"
                 android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>
                 <action android:name="android.view.InputMethod"/>

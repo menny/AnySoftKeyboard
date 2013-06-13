@@ -2,10 +2,10 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools"
            tools:ignore="MissingTranslation">
-    <string name="ime_name">AnySoftKeyboard</string>
-    <string name="settings_app_name">AnySoftKeyboard Settings</string>
-    <string name="spell_checker_service_name">AnySoftKeyboard Spell Checker</string>
-    <string name="spell_checker_settings">AnySoftKeyboard Speller Settings</string>
+    <string name="ime_name">MLS Keyboard</string>
+    <string name="settings_app_name">MLS Keyboard Settings</string>
+    <string name="spell_checker_service_name">MLS Keyboard Spell Checker</string>
+    <string name="spell_checker_settings">MLS Keyboard Speller Settings</string>
     <string name="subtype_generic">speller-generic</string>
 
     <string name="copyright_text">Copyright © <xliff:g id="year">%s</xliff:g> <xliff:g id="owner">%s</xliff:g></string>
@@ -21,12 +21,12 @@
     <!-- tips -->
     <string name="tips_notification_text">Click for tips!</string>
     <string name="tips_button">How to use</string>
-    <string name="tips_button_description">A few tips about how to use AnySoftKeyboard</string>
-    <string name="tips_title">AnySoftKeyboard tips</string>
+    <string name="tips_button_description">A few tips about how to use MLS Keyboard</string>
+    <string name="tips_title">MLS Keyboard tips</string>
     <string name="click_for_previous_tip">↓ Previous tip</string>
     <string name="click_for_next_tip">Next tip ↓</string>
     <!-- tip 1 -->
-    <string name="tip_1_welcome_to_ask">Welcome to AnySoftKeyboard!</string>
+    <string name="tip_1_welcome_to_ask">Welcome to MLS Keyboard!</string>
     <string name="tip_1_how_to_access_settings">To access the settings; long press the ENTER key. You\'ll find a world
         of customizations there!
     </string>
@@ -58,7 +58,7 @@
     <string name="tip_5_key_feedback_test">Want to test the feedback?</string>
     <!-- tip 6 -->
     <string name="tip_6_bottom_rows">Bottom row</string>
-    <string name="tip_6_bottom_rows_tip">As the top row, the bottom row can also be replaced. AnySoftKeyboard has
+    <string name="tip_6_bottom_rows_tip">As the top row, the bottom row can also be replaced. MLS Keyboard has
         several types - with or without a mic, iPhone style, etc.
     </string>
     <string name="tip_6_top_generic_row_go_to_bottom_row_settings">Change bottom row now</string>
@@ -75,28 +75,28 @@
     <string name="tip_7_voice_input_tip_note">* Requires Android 2.2+ and Internet connection to work.</string>
     <!-- tip 8 -->
     <string name="tip_8_suggestions">I complete you</string>
-    <string name="tip_8_suggestions_tip">Depending on you language support level, AnySoftKeyboard can help you finish
-        your words and correct your typos. As you start typing, AnySoftKeyboard will suggest words based on what you
+    <string name="tip_8_suggestions_tip">Depending on you language support level, MLS Keyboard can help you finish
+        your words and correct your typos. As you start typing, MLS Keyboard will suggest words based on what you
         already typed.
     </string>
     <string name="tip_8_suggestions_editor">If I don\'t know a word, you can teach me! Type that word, and click it in
         the suggestions strip. I\'ll remember it.\nYou can also edit those User-Words in our built-in editor. Look for
-        the editor in AnySoftKeyboard Dictionary Settings.
+        the editor in MLS Keyboard Dictionary Settings.
     </string>
     <!-- tip 9 -->
     <string name="tip_9_suggestions_restart">Suggestions Restarting</string>
-    <string name="tip_9_suggestions_restart_tip">AnySoftKeyboard provides word completion suggestions based on what you
-        typed. But, AnySoftKeyboard can also provide suggestions on already typed words! Tap the word, and
-        AnySoftKeyboard will refresh the suggestions strip.
+    <string name="tip_9_suggestions_restart_tip">MLS Keyboard provides word completion suggestions based on what you
+        typed. But, MLS Keyboard can also provide suggestions on already typed words! Tap the word, and
+        MLS Keyboard will refresh the suggestions strip.
     </string>
     <!-- main form -->
     <string name="main_tab_welcome">Welcome</string>
     <string name="main_tab_links">Links</string>
     <string name="main_tab_credits">Credits</string>
     <!-- welcome tab -->
-    <string name="how_to_pointer_title">Welcome to AnySoftKeyboard</string>
+    <string name="how_to_pointer_title">Welcome to MLS Keyboard</string>
     <string name="how_to_pointer_version_prefix">Version:</string>
-    <string name="how_to_pointer_not_app">AnySoftKeyboard is not a regular application - it is a on-screen keyboard
+    <string name="how_to_pointer_not_app">MLS Keyboard is not a regular application - it is a on-screen keyboard
         replacement.
     </string>
     <string name="how_to_pointer_go_to_links">For further information, go to the Links tab.</string>
@@ -112,8 +112,8 @@
     <string name="main_tab_credits_localization_by">Localization efforts by:</string>
     <string name="main_tab_credits_GUI_by">UI images by:</string>
 
-    <string name="how_to_enable_dialog_title">Enable AnySoftKeyboard\?</string>
-    <string name="how_to_enable_dialog_text">AnySoftKeyboard is not activated yet. Do you want me to show you how to
+    <string name="how_to_enable_dialog_title">Enable MLS Keyboard\?</string>
+    <string name="how_to_enable_dialog_text">MLS Keyboard is not activated yet. Do you want me to show you how to
         activate?
     </string>
     <string name="how_to_enable_dialog_show_me">Show me!</string>
@@ -122,27 +122,27 @@
     <string name="how_to_simple_howto_preface">Android requires that you (the user) will manually enable and activate
         external keyboards. Here is how:
     </string>
-    <string name="how_to_simple_howto_enable_ask">Step 1: Enable AnySoftKeyboard (it will warn you about possible
-        key-logging, don\'t worry, AnySoftKeyboard does not keep data, and does not send it anywhere) :
+    <string name="how_to_simple_howto_enable_ask">Step 1: Enable MLS Keyboard (it will warn you about possible
+        key-logging, don\'t worry, MLS Keyboard does not keep data, and does not send it anywhere) :
     </string>
-    <string name="how_to_simple_howto_enable_ask_button">Enable AnySoftKeyboard</string>
+    <string name="how_to_simple_howto_enable_ask_button">Enable MLS Keyboard</string>
     <string name="how_to_simple_howto_press_back_to_return_tip">Press BACK once done, to get back to activation
         instructions
     </string>
-    <string name="how_to_simple_howto_switch_to_ask">Step 2: Select AnySoftKeyboard as your active Input Method:
+    <string name="how_to_simple_howto_switch_to_ask">Step 2: Select MLS Keyboard as your active Input Method:
     </string>
-    <string name="how_to_simple_howto_switch_to_ask_button_after_step_1">Switch to AnySoftKeyboard</string>
+    <string name="how_to_simple_howto_switch_to_ask_button_after_step_1">Switch to MLS Keyboard</string>
     <string name="how_to_simple_howto_switch_to_ask_button_before_step_1">First do step 1</string>
-    <string name="how_to_simple_howto_go_to_settings">Step 3 (optional): AnySoftKeyboard is very customizable. Change
+    <string name="how_to_simple_howto_go_to_settings">Step 3 (optional): MLS Keyboard is very customizable. Change
         stuff! You can do that later by long-press the ENTER key.
     </string>
-    <string name="how_to_simple_howto_go_to_settings_button">AnySoftKeyboard\'s settings</string>
+    <string name="how_to_simple_howto_go_to_settings_button">MLS Keyboard\'s settings</string>
 
     <!-- notifications -->
-    <string name="ime_name_beta">AnySoftKeyboard BETA</string>
+    <string name="ime_name_beta">MLS Keyboard BETA</string>
     <string name="notification_text_testers">This is a beta version. Use with caution!</string>
     <string name="notification_text_changelog">Click to learn what\'s new.</string>
-    <string name="notification_title_how_to_enable">Welcome to AnySoftKeyboard</string>
+    <string name="notification_title_how_to_enable">Welcome to MLS Keyboard</string>
     <string name="notification_text_how_to_enable">Learn how to enable</string>
     <string name="testers_version">Testers build!</string>
 
@@ -165,7 +165,7 @@
 
     <string name="close_button">Close</string>
 
-    <string name="how_to_active_text">How to active AnySoftKeyboard</string>
+    <string name="how_to_active_text">How to active MLS Keyboard</string>
     <!-- Symbols that are commonly considered word separators in this language -->
     <!-- <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|-'`~&quot;1234567890</string>-->
     <!-- Indicates that a word has been added to the dictionary -->
@@ -182,7 +182,7 @@
     <string name="menu_insert_smiley">Insert emoticon</string>
 
     <string name="click_for_help">Help</string>
-    <string name="click_for_help_summary">Additional help about AnySoftKeyboard</string>
+    <string name="click_for_help_summary">Additional help about MLS Keyboard</string>
 
 
     <!-- settings - UI -->
@@ -342,12 +342,12 @@
         character, full press deletes last word
     </string>
     <string name="special_dictionaries_group">Special dictionaries</string>
-    <string name="special_dictionaries_group_summary">Suggestion dictionaries used in AnySoftKeyboard</string>
+    <string name="special_dictionaries_group_summary">Suggestion dictionaries used in MLS Keyboard</string>
     <string name="use_user_dictionary">User-dictionary</string>
     <string name="use_user_dictionary_on_summary">Suggest user added words (double-click a typed-suggestion to add)</string>
     <string name="use_user_dictionary_off_summary"></string>
     <string name="always_use_fallback_user_dictionary">Use fallback User-dictionary</string>
-    <string name="always_use_fallback_user_dictionary_on_summary">Use only AnySoftKeyboard\'s built-in User-dictionary mechanism (not recommended).</string>
+    <string name="always_use_fallback_user_dictionary_on_summary">Use only MLS Keyboard\'s built-in User-dictionary mechanism (not recommended).</string>
     <string name="always_use_fallback_user_dictionary_off_summary">Try to use Android\'s built-in User-dictionary first (recommended).</string>
     <string name="use_auto_dictionary">Auto dictionary</string>
     <string name="use_auto_dictionary_dialog_title">Select learn method</string>
@@ -502,12 +502,12 @@
     <string name="auto_dict_summary">Add commonly used or selected words automatically to the dictionary</string>
 
     <string name="no_extrenal_packs_support_title">Unsupported</string>
-    <string name="no_extrenal_packs_support_message">For now, AnySoftKeyboard does not allow external packs of this
+    <string name="no_extrenal_packs_support_message">For now, MLS Keyboard does not allow external packs of this
         type.\nOnce API specifications have been determined, this feature will be opened.\nStay tuned.
     </string>
     <!-- settings - keyboard group -->
     <string name="keyboards_group">Keyboards</string>
-    <string name="keyboards_group_summary">Keyboard layouts for use in AnySoftKeyboard</string>
+    <string name="keyboards_group_summary">Keyboard layouts for use in MLS Keyboard</string>
     <string name="symbols_keyboard">123!#()</string>
     <string name="symbols_alt_keyboard">{}\_</string>
     <string name="symbols_alt_num_keyboard">123</string>
@@ -612,7 +612,7 @@
 
     <string name="please_wait">Please wait</string>
     <string name="toast_lengthy_words_long_operation">Loading dictionary...</string>
-    <string name="toast_lengthy_start_up_operation">Starting AnySoftKeyboard...</string>
+    <string name="toast_lengthy_start_up_operation">Starting MLS Keyboard...</string>
     <string name="lengthy_creating_keyboard_operation">Creating keyboards...</string>
 
     <string name="select_keyboard_popup_title">Select keyboard</string>
@@ -644,7 +644,7 @@
     <string name="tweak_workarounds_group">Workarounds</string>
     <string name="workaround_disable_rtl_fix">Disable Right-to-Left handling</string>
     <string name="workaround_disable_rtl_fix_summary_on">Use OS RTL handling (for SE phones)</string>
-    <string name="workaround_disable_rtl_fix_summary_off">Use AnySoftKeyboard RTL handling</string>
+    <string name="workaround_disable_rtl_fix_summary_off">Use MLS Keyboard RTL handling</string>
 
     <string name="settings_split_state_title">Split/Merge initial state</string>
     <string name="settings_split_state_summary">Define whether the keyboard is split as default. Now: %s</string>
@@ -695,7 +695,7 @@
 
     <string name="developer_tools">Developer tools</string>
     <string name="click_for_developer_features">Developer tools</string>
-    <string name="click_for_developer_features_summary">Various tools for AnySoftKeyboard developers</string>
+    <string name="click_for_developer_features_summary">Various tools for MLS Keyboard developers</string>
     <string name="failed_to_create_mem_dump">Failed to create memory dump file due to:
         <xliff:g id="message">%s</xliff:g>
     </string>

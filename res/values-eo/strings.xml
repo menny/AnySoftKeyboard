@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="ime_name">AnySoftKeyboard</string>
+    <string name="ime_name">MLS Keyboard</string>
 
     <string name="main_tab_welcome">Bonvenon</string>
     <string name="main_tab_links">Ligoj</string>
     <string name="main_tab_credits">Dankoj</string>
     <!-- welcome tab -->
-    <string name="how_to_pointer_title">Bonvenon al AnySoftKeyboard</string>
+    <string name="how_to_pointer_title">Bonvenon al MLS Keyboard</string>
     <string name="how_to_pointer_version_prefix">Versio:</string>
-    <string name="how_to_pointer_not_app">AnySoftKeyboard ne estas kiel kutima programo, fakte ĝi estas ekrana
+    <string name="how_to_pointer_not_app">MLS Keyboard ne estas kiel kutima programo, fakte ĝi estas ekrana
         klavaro.
     </string>
     <string name="how_to_pointer_go_to_links">Por pli da informoj, premu \&quot;ligoj\&quot; supre.</string>
@@ -131,6 +131,6 @@
 
     <string name="please_wait">Bonvole atendu</string>
     <string name="toast_lengthy_words_long_operation">Ŝargante vortaron...</string>
-    <string name="toast_lengthy_start_up_operation">Startante AnySoftKeyboard...</string>
+    <string name="toast_lengthy_start_up_operation">Startante MLS Keyboard...</string>
     <string name="lengthy_creating_keyboard_operation">Kreante klavarojn...</string>
 </resources>

@@ -33,7 +33,7 @@ import com.anysoftkeyboard.receivers.AnySoftKeyboardInstalledReceiver;
 import com.anysoftkeyboard.ui.MainForm;
 import com.anysoftkeyboard.utils.Log;
 import com.menny.android.anysoftkeyboard.AnyApplication;
-import com.menny.android.anysoftkeyboard.R;
+import com.menny.android.anysoftkeyboard.mls.R;
 
 public class WelcomeHowToNoticeActivity extends BaseTutorialActivity {
 

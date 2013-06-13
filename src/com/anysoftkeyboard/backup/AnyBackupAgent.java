@@ -22,7 +22,7 @@ import android.app.backup.BackupDataInputStream;
 import android.app.backup.SharedPreferencesBackupHelper;
 import android.text.TextUtils;
 import com.anysoftkeyboard.ui.tutorials.WelcomeHowToNoticeActivity;
-import com.menny.android.anysoftkeyboard.R;
+import com.menny.android.anysoftkeyboard.mls.R;
 
 @TargetApi(8)
 public class AnyBackupAgent extends BackupAgentHelper {

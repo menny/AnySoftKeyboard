@@ -22,7 +22,7 @@ import com.anysoftkeyboard.WordComposer;
 import com.anysoftkeyboard.utils.IMEUtil;
 import com.anysoftkeyboard.utils.Log;
 import com.menny.android.anysoftkeyboard.AnyApplication;
-import com.menny.android.anysoftkeyboard.R;
+import com.menny.android.anysoftkeyboard.mls.R;
 import net.evendanan.frankenrobot.Diagram;
 
 import java.util.ArrayList;

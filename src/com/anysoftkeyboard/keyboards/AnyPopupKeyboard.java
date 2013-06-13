@@ -17,7 +17,7 @@
 package com.anysoftkeyboard.keyboards;
 
 import android.content.Context;
-import com.menny.android.anysoftkeyboard.R;
+import com.menny.android.anysoftkeyboard.mls.R;
 
 import java.util.HashSet;
 import java.util.List;

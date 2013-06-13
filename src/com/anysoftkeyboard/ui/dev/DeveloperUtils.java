@@ -26,7 +26,7 @@ import android.os.Environment;
 import android.preference.PreferenceManager;
 import com.anysoftkeyboard.utils.Workarounds;
 import com.menny.android.anysoftkeyboard.AnyApplication;
-import com.menny.android.anysoftkeyboard.R;
+import com.menny.android.anysoftkeyboard.mls.R;
 
 import java.io.File;
 import java.io.IOException;
