@@ -23,5 +23,13 @@
               physicalKeyboardMappingResId="@xml/physical"
               screenshotResId="@drawable/english_qwerty_with_symbols_screenshot"
             />
-
+    <Keyboard
+        id="a731582b-9ad9-4e12-865c-8cb2655030d1"
+        nameResId="@string/el_keyboard"
+        layoutResId="@xml/el_qwerty"
+        iconResId="@drawable/el_flag"
+        defaultDictionaryLocale="el"
+        defaultEnabled="true"
+        description="Created with help from Dogas Giannis"
+        index="4"/>
 </Keyboards>

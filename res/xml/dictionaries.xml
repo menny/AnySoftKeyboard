@@ -5,4 +5,6 @@
                 type="binary_resource"
                 dictionaryResourceId="@array/words_dict_array" autoTextResourceId="@xml/en_autotext"
                 description=""/>
+
+    <Dictionary nameResId="@string/el_dictionary" locale="el" id="40bd9055-eaf2-44ff-8f95-a188dc4d1aaa" type="binary" dictionaryAssertName="el_binary.mp3" description="CyanogenMod Gingerbread dictionary"/>
 </Dictionaries>
