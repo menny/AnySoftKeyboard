@@ -27,6 +27,6 @@
         <item>_</item>
     </string-array>
 
-    <string name="el_keyboard">Greek</string>
-    <string name="el_dictionary">Greek</string>
+    <string name="el_keyboard">Ελληνικά</string>
+    <string name="el_dictionary">Ελληνικά</string>
 </resources>	
