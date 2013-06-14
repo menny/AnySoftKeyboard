@@ -702,4 +702,8 @@
     <string name="created_mem_dump_file">Created memory dump file at:
         <xliff:g id="file_path">%s</xliff:g>
     </string>
+
+    <string name="ics_keyboard_theme_name">ICS (Android 4.0) Theme</string>
+    <string name="ics_keyboard_theme_description">AnySoftKeyboard theme similar to Ice Cream Sandwich keyboard look</string>
+
 </resources>

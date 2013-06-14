@@ -77,4 +77,16 @@
     <dimen name="blacktheme_paddingTop">0dp</dimen>
     <dimen name="blacktheme_paddingBottom">0dp</dimen>
 
+    <dimen name="ics_default_key_height">45dip</dimen>
+    <dimen name="ics_default_key_half_height">30dip</dimen>
+    <dimen name="ics_default_key_tall_height">54dip</dimen>
+
+    <dimen name="ics_default_key_vertical_gap">5dp</dimen>
+    <dimen name="ics_default_key_horizontal_gap">1dp</dimen>
+
+    <dimen name="ics_key_text_size">21sp</dimen>
+    <dimen name="ics_key_label_text_size">14sp</dimen>
+    <dimen name="ics_candidate_strip_height">36dip</dimen>
+    <dimen name="ics_candidate_font_height">18sp</dimen>
+
 </resources>

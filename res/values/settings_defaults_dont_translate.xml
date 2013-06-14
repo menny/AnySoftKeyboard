@@ -54,7 +54,7 @@
 
     <string name="settings_default_top_row_key">82910c70-ded1-11e0-9572-0800200c9a66</string>
     <string name="settings_default_quick_text_key">698b8c20-19df-11e1-bddb-0800200c9a66</string>
-    <string name="settings_default_keyboard_theme_key">ac8ea510-ca66-11e1-9b23-0800200c9a66</string>
+    <string name="settings_default_keyboard_theme_key">f96e55d0-11eb-11e1-be50-0800200c9a66</string>
     <string name="settings_default_ext_keyboard_key">6f1ecea0-dee2-11e0-9572-0800200c9a66</string>
     <string name="settings_default_ext_kbd_bottom_row_key">3659b9e0-dee2-11e0-9572-0800200c9a55</string>
 

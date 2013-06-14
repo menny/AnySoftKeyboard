@@ -38,4 +38,17 @@
     <dimen name="candidate_font_height">24sp</dimen>
 
     <integer name="condensing_precentage">55</integer>
+
+    <dimen name="ics_default_key_height">55dip</dimen>
+    <dimen name="ics_default_key_half_height">42dip</dimen>
+    <dimen name="ics_default_key_tall_height">68dip</dimen>
+
+    <dimen name="ics_default_key_vertical_gap">4dp</dimen>
+    <dimen name="ics_default_key_horizontal_gap">5dip</dimen>
+
+    <dimen name="ics_key_text_size">27sp</dimen>
+    <dimen name="ics_key_label_text_size">19sp</dimen>
+
+    <dimen name="ics_candidate_strip_height">40dip</dimen>
+    <dimen name="ics_candidate_font_height">24sp</dimen>
 </resources>

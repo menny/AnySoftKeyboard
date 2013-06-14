@@ -54,4 +54,13 @@
             themeScreenshot="@drawable/lean_dark_theme_screenshot"
             description="@string/lean_dark_keyboard_theme_description"
             index="6"/>
+    <KeyboardTheme
+        id="f96e55d0-11eb-11e1-be50-0800200c9a66"
+        nameResId="@string/ics_keyboard_theme_name"
+        themeRes="@style/ICSAnyKeyboardTheme"
+        popupThemeRes="@style/ICSAnyKeyboardPopupTheme"
+        iconsThemeRes="@style/ICSAnyKeyboardIconsTheme"
+        themeScreenshot="@drawable/ics_theme_screenshot"
+        description="@string/ics_keyboard_theme_description"
+        index="7"/>
 </KeyboardThemes>
