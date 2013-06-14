@@ -56,8 +56,8 @@ public class KeyboardSwitcher {
 
     private static final int SYMBOLS_KEYBOARD_REGULAR_INDEX = 0;
     private static final int SYMBOLS_KEYBOARD_ALT_INDEX = 1;
-    private static final int SYMBOLS_KEYBOARD_ALT_NUMBERS_INDEX = 2;
-    private static final int SYMBOLS_KEYBOARD_LAST_CYCLE_INDEX = SYMBOLS_KEYBOARD_ALT_NUMBERS_INDEX;
+    //private static final int SYMBOLS_KEYBOARD_ALT_NUMBERS_INDEX = 2;
+    private static final int SYMBOLS_KEYBOARD_LAST_CYCLE_INDEX = SYMBOLS_KEYBOARD_ALT_INDEX;
     private static final int SYMBOLS_KEYBOARD_NUMBERS_INDEX = 3;
     private static final int SYMBOLS_KEYBOARD_PHONE_INDEX = 4;
     private static final int SYMBOLS_KEYBOARD_DATETIME_INDEX = 5;
@@ -169,12 +169,12 @@ public class KeyboardSwitcher {
                                 mContext.getString(R.string.symbols_alt_keyboard),
                                 "alt_symbols_keyboard", mode, false);
                     break;
-                case SYMBOLS_KEYBOARD_ALT_NUMBERS_INDEX:
+                /*case SYMBOLS_KEYBOARD_ALT_NUMBERS_INDEX:
                     keyboard = new GenericKeyboard(mContext,
                             R.xml.simple_alt_numbers,
                             mContext.getString(R.string.symbols_alt_num_keyboard),
                             "alt_numbers_symbols_keyboard", mode, false);
-                    break;
+                    break;*/
                 case SYMBOLS_KEYBOARD_PHONE_INDEX:
                     keyboard = new GenericKeyboard(mContext, R.xml.simple_phone,
                             mContext.getString(R.string.symbols_phone_keyboard),
@@ -435,9 +435,9 @@ public class KeyboardSwitcher {
                 case SYMBOLS_KEYBOARD_ALT_INDEX:
                     tooltipResId = R.string.symbols_alt_keyboard;
                     break;
-                case SYMBOLS_KEYBOARD_ALT_NUMBERS_INDEX:
+                /*case SYMBOLS_KEYBOARD_ALT_NUMBERS_INDEX:
                     tooltipResId = R.string.symbols_alt_num_keyboard;
-                    break;
+                    break;*/
                 case SYMBOLS_KEYBOARD_PHONE_INDEX:
                     tooltipResId = R.string.symbols_phone_keyboard;
                     break;
