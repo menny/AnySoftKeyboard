@@ -17,7 +17,9 @@
 package com.anysoftkeyboard.keyboards;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.Resources;
+import android.preference.PreferenceManager;
 import android.view.inputmethod.EditorInfo;
 import com.anysoftkeyboard.AnySoftKeyboard;
 import com.anysoftkeyboard.api.KeyCodes;
@@ -49,6 +51,7 @@ public class KeyboardSwitcher {
     private final int KEYBOARDMODE_URL;
     private final int KEYBOARDMODE_EMAIL;
     private final int KEYBOARDMODE_IM;
+    private final int KEYBOARDMODE_MIC;
 
     AnyKeyboardView mInputView;
     AnySoftKeyboard mIME;
@@ -125,6 +128,7 @@ public class KeyboardSwitcher {
         KEYBOARDMODE_IM = res.getInteger(R.integer.keyboard_mode_im);
         KEYBOARDMODE_URL = res.getInteger(R.integer.keyboard_mode_url);
         KEYBOARDMODE_EMAIL = res.getInteger(R.integer.keyboard_mode_email);
+        KEYBOARDMODE_MIC = res.getInteger(R.integer.keyboard_mode_mic);
         mMode = KEYBOARDMODE_NORMAL;
     }
 
@@ -336,6 +340,11 @@ public class KeyboardSwitcher {
     private int getKeyboardMode(EditorInfo attr) {
         if (attr == null)
             return mLastKeyboardMode = KEYBOARDMODE_NORMAL;
+
+        if (attr.packageName != null && attr.packageName.startsWith("com.facebook.")) {
+            //MLS wants that all of Facebook's textboxes will have a mic.
+            return mLastKeyboardMode = KEYBOARDMODE_MIC;
+        }
 
         int variation = attr.inputType & EditorInfo.TYPE_MASK_VARIATION;
 

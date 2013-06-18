@@ -263,6 +263,11 @@ public abstract class AnyKeyboard extends Keyboard {
                             KeyboardExtension.TYPE_BOTTOM);
             if (AnyApplication.DEBUG)
                 Log.d(TAG, "Bottom row layout id " + bottomRowPlugin.getId());
+            //this is a hack, and applicable only to thier iPhone style bottom row.
+            //MLS wants that all of Facebook's textboxes will have a mic.
+            if (mode == 5 && !bottomRowPlugin.getId().equals("3659b9e0-dee2-11e0-9572-0800200c9a55")) {
+                mode = 2;
+            }
             KeyboardMetadata bottomMd = addKeyboardRow(
                     bottomRowPlugin.getPackageContext(),
                     bottomRowPlugin.getKeyboardResId(), mode, keyboardDimens);
