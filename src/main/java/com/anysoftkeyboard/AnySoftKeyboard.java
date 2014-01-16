@@ -1145,6 +1145,10 @@ public class AnySoftKeyboard extends InputMethodService implements
                     switchToNextPhysicalKeyboard(ic);
                     return true;
                 }
+                if (event.isCtrlPressed()) {
+                    switchToNextPhysicalKeyboard(ic);
+                    return true;
+                }
                 // NOTE: letting it fallthru to the other meta-keys
             case KeyEvent.KEYCODE_ALT_LEFT:
             case KeyEvent.KEYCODE_ALT_RIGHT:
