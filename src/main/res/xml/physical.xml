@@ -1,3 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PhysicalTranslation>
+    <SequenceMapping altModifier="true" keySequence="8" targetChar="!"/>
+    <SequenceMapping altModifier="true" keySequence="9" targetChar="&#x64;"/>
+    <SequenceMapping altModifier="true" keySequence="10" targetChar="#"/>
+    <SequenceMapping altModifier="true" keySequence="11" targetChar="$"/>
+    <SequenceMapping altModifier="true" keySequence="12" targetChar="&#x37;"/>
+    <SequenceMapping altModifier="true" keySequence="13" targetChar="^"/>
+    <SequenceMapping altModifier="true" keySequence="14" targetChar="&#x38;"/>
+    <SequenceMapping altModifier="true" keySequence="15" targetChar="*"/>
+    <SequenceMapping altModifier="true" keySequence="16" targetChar="("/>
+    <SequenceMapping altModifier="true" keySequence="7" targetChar=")"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_R" targetChar="&#x92;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_T" targetChar="&#x43;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_Y" targetChar="&#x45;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_U" targetChar="&#x43;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_I" targetChar="&#x95;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_O" targetChar="&#x47;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_F" targetChar="&#x58;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_G" targetChar="&#x39;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_H" targetChar="&#x34;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_J" targetChar="&#x44;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_K" targetChar="&#x46;"/>
 </PhysicalTranslation>

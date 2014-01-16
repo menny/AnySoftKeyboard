@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PhysicalTranslation QwertyTranslation="\u0439\u0446\u0443\u043a\u0435\u043d\u0433\u0448\u0449\u0437\u0444\u044b\u0432\u0430\u043f\u0440\u043e\u043b\u0434\u044f\u0447\u0441\u043c\u0438\u0442\u044c">
-	<!-- keycode_O -->
-	<SequenceMapping keySequence="43,43" targetChar="&#x445;"/>
-	<!-- keycode_p -->
-	<SequenceMapping keySequence="44,44" targetChar="&#x44C;"/>
-	<!-- keycode_k -->
-	<SequenceMapping keySequence="39,39" targetChar="&#x436;"/>
-	<!-- keycode_l -->
-	<SequenceMapping keySequence="40,40" targetChar="&#x44D;"/>
-	<!-- keycode_m -->
-	<SequenceMapping keySequence="41,41" targetChar="&#x431;"/>
-	<!-- keycode_comma -->
-	<SequenceMapping keySequence="55,55" targetChar="&#x44E;"/>
+	<SequenceMapping keySequence="KEYCODE_Q,KEYCODE_Q" targetChar="Ц"/>
+	<SequenceMapping keySequence="KEYCODE_R,KEYCODE_R" targetChar="Ё"/>
+    <SequenceMapping keySequence="KEYCODE_P,KEYCODE_P" targetChar="Ъ"/>
+    <SequenceMapping keySequence="KEYCODE_A,KEYCODE_A" targetChar="Ы"/>
+    <SequenceMapping keySequence="KEYCODE_L,KEYCODE_L" targetChar="З"/>
+    <SequenceMapping keySequence="KEYCODE_Z,KEYCODE_Z" targetChar="Ч"/>
+    <SequenceMapping keySequence="KEYCODE_M,KEYCODE_M" targetChar="Ю"/>
+
+    <SequenceMapping altModifier="true" keySequence="8" targetChar="!"/>
+    <SequenceMapping altModifier="true" keySequence="9" targetChar="&#x64;"/>
+    <SequenceMapping altModifier="true" keySequence="10" targetChar="#"/>
+    <SequenceMapping altModifier="true" keySequence="11" targetChar="$"/>
+    <SequenceMapping altModifier="true" keySequence="12" targetChar="&#x37;"/>
+    <SequenceMapping altModifier="true" keySequence="13" targetChar="^"/>
+    <SequenceMapping altModifier="true" keySequence="14" targetChar="&#x38;"/>
+    <SequenceMapping altModifier="true" keySequence="15" targetChar="*"/>
+    <SequenceMapping altModifier="true" keySequence="16" targetChar="("/>
+    <SequenceMapping altModifier="true" keySequence="7" targetChar=")"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_R" targetChar="&#x92;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_T" targetChar="&#x43;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_Y" targetChar="&#x45;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_U" targetChar="&#x43;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_I" targetChar="&#x95;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_O" targetChar="&#x47;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_F" targetChar="&#x58;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_G" targetChar="&#x39;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_H" targetChar="&#x34;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_J" targetChar="&#x44;"/>
+    <SequenceMapping altModifier="true" keySequence="KEYCODE_K" targetChar="&#x46;"/>
 </PhysicalTranslation>
