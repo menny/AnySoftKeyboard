@@ -55,7 +55,7 @@ android {
         versionCode 121
         versionName "1.2."+getVersionPatchBuild()+"TVZOR"
 
-        minSdkVersion 7
+        minSdkVersion 11
         targetSdkVersion 19
         //adding additional fields to the BuildConfig class.
 
