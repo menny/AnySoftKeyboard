@@ -2,7 +2,7 @@
 <PhysicalTranslation>
     <SequenceMapping altModifier="true" keySequence="8" targetChar="!"/>
     <SequenceMapping altModifier="true" keySequence="9" targetChar="&#x64;"/>
-    <SequenceMapping altModifier="true" keySequence="10" targetChar="#"/>
+    <SequenceMapping altModifier="true" keySequence="10" targetChar="&#x35;"/>
     <SequenceMapping altModifier="true" keySequence="11" targetChar="$"/>
     <SequenceMapping altModifier="true" keySequence="12" targetChar="&#x37;"/>
     <SequenceMapping altModifier="true" keySequence="13" targetChar="^"/>
