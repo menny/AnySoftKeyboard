@@ -41,10 +41,10 @@ def boolean isEmpty(String value) {
 def String getVersionPatchBuild() {
     DateFormat dateFormat = new SimpleDateFormat("yyyyMMdd")
     Date date = new Date()
-    return dateFormat.format(date)
+    return dateFormat.format(date)+"TVZOR"
 }
 
-version "1.2."+getVersionPatchBuild()+"TVZOR"
+version "1.2."+getVersionPatchBuild()
 group 'net.evendanan'
 
 android {
@@ -53,9 +53,9 @@ android {
 
     defaultConfig {
         versionCode 121
-        versionName "1.2."+getVersionPatchBuild()+"TVZOR"
+        versionName "1.2."+getVersionPatchBuild()
 
-        minSdkVersion 11
+        minSdkVersion 14
         targetSdkVersion 19
         //adding additional fields to the BuildConfig class.
 

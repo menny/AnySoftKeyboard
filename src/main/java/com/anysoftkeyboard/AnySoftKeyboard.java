@@ -1140,18 +1140,10 @@ public class AnySoftKeyboard extends InputMethodService implements
                 return true;
             case KeyEvent.KEYCODE_SHIFT_LEFT:
             case KeyEvent.KEYCODE_SHIFT_RIGHT:
-                if (event.isAltPressed()
-                        && Workarounds.isAltSpaceLangSwitchNotPossible()) {
-                    switchToNextPhysicalKeyboard(ic);
-                    return true;
-                }
-                if (event.isCtrlPressed()) {
-                    switchToNextPhysicalKeyboard(ic);
-                    return true;
-                }
-                // NOTE: letting it fallthru to the other meta-keys
             case KeyEvent.KEYCODE_ALT_LEFT:
             case KeyEvent.KEYCODE_ALT_RIGHT:
+            case KeyEvent.KEYCODE_CTRL_LEFT:
+            case KeyEvent.KEYCODE_CTRL_RIGHT:
             case KeyEvent.KEYCODE_SYM:
                 Log.d(TAG + "-meta-key",
                         getMetaKeysStates("onKeyDown before handle"));
@@ -1159,16 +1151,25 @@ public class AnySoftKeyboard extends InputMethodService implements
                         keyCode, event);
                 Log.d(TAG + "-meta-key",
                         getMetaKeysStates("onKeyDown after handle"));
+
+                //maybe we want to switch language?
+
+                if (event.isAltPressed() && event.isShiftPressed()) {
+                    switchToNextPhysicalKeyboard(ic);
+                    return true;
+                }
+                if (event.isCtrlPressed() && event.isShiftPressed()) {
+                    switchToNextPhysicalKeyboard(ic);
+                    return true;
+                }
                 break;
             case KeyEvent.KEYCODE_SPACE:
-                if ((event.isAltPressed() && !Workarounds
-                        .isAltSpaceLangSwitchNotPossible())
-                        || event.isShiftPressed()) {
+                if (event.isAltPressed() || event.isShiftPressed()) {
                     switchToNextPhysicalKeyboard(ic);
                     return true;
                 }
                 // NOTE:
-                // letting it fall through to the "default"
+                // letting it fall through to the "default" (in the case of SPACE which was not resulted in language change)
             default:
 
                 // Fix issue 185, check if we should process key repeat
